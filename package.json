@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "jest-serializer-vue-tjw": "^3.10.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tjw-lint/vue-cli-plugin-jest-serializer-vue-tjw.git"
