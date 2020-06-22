@@ -1,3 +1,9 @@
+/**
+ * Checks if an answer is custom
+ *
+ * @param  {object}  answers Object of all answers
+ * @return {boolean}         true = custom, false = default
+ */
 function isCustom (answers) {
   return answers.preset === 'configure';
 }

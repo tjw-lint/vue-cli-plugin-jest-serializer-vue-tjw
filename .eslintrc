@@ -1,0 +1,21 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "plugin:jsdoc/recommended",
+    "tjw-base",
+    "tjw-jest",
+    "tjw-vue"
+  ],
+  "plugins": [
+    "jsdoc"
+  ],
+  "settings": {
+    "jsdoc": {
+      "tagNamePreference": {
+        "returns": "return"
+      }
+    }
+  }
+}

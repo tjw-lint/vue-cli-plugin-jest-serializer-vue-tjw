@@ -1,10 +1,22 @@
 {
   "name": "vue-cli-plugin-jest-serializer-vue-tjw",
-  "version": "3.11.0",
+  "version": "3.14.0",
   "description": "Vue CLI Plugin wrapper for Jest Serializer Vue (TJW)",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint --ext .js,.vue .",
+    "fix": "npm run lint -- --fix",
+    "validate": "npm run lint"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.0",
+    "eslint-config-tjw-base": "^1.0.0",
+    "eslint-config-tjw-jest": "^1.0.0",
+    "eslint-config-tjw-vue": "^2.0.0",
+    "eslint-plugin-jsdoc": "^28.0.0",
+    "eslint-plugin-vue": "^6.2.2"
   },
   "repository": {
     "type": "git",
