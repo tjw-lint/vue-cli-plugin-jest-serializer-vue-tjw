@@ -2,6 +2,12 @@ const fs = require('fs');
 const execSync = require('child_process').execSync;
 
 module.exports = (api, options) => {
+  api.extendPackage({
+    devDependencies: {
+      'jest-serializer-vue-tjw': '^3.14.0'
+    }
+  })
+
   if (options.preset !== 'default') {
     const {
       verbose,
